@@ -7,8 +7,7 @@
       {{ $categoryIcon := (print "svgs/showcase/" (.Params.categoryIcon | default "code") ".svg") }}
       {{ range .Pages }}
         <div class="showcase__box" data-dir="{{ $.Param "languagedir" | default "ltr" }}">
-          <a href="{{ .Params.Link }}" class="showcase__box--link" target="_blank" rel="noreferrer"></a>
-          <a href="{{ .Params.Link }}" class="showcase__box--title" target="_blank" rel="noreferrer">
+          <a href="{{ .Params.Link }}" class="showcase__box--title" {{ if .Params.openBlank }}target="_blank"{{ end }} rel="noreferrer">
             {{ .Title }}
           </a>
           
@@ -38,7 +37,7 @@
             {{ with .Params.repo }}
               <a href="{{ . }}" class="type" target="_blank" rel="noreferrer">
                 {{ partial "svgs/social/github.svg" (dict "width" 14 "height" 14) }}
-                Repository
+                {{ i18n "repository" }}
               </a>
             {{ end }}
           </div>

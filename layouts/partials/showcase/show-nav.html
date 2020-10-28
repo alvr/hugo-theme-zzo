@@ -3,7 +3,8 @@
   <a href="{{ .FirstSection.Permalink }}" class="showcase__button {{ if eq .Permalink .FirstSection.Permalink }}active{{ end }}">
     {{ i18n "showcase-overview" }}
   </a>
-  {{ range (.Site.GetPage "section" .Type).Pages }}
+
+  {{ range (where .FirstSection.Pages "Type" "showcase") }}
     {{ $active := false }}
     {{ $active = or $active (eq .Name $current.Title) }}
     {{ $active = or $active (eq (lower .Permalink) (lower $current.Title)) }}
