@@ -117,3 +117,6 @@ other = "kimbie"
 
 [repository]
 other = "Repositorio"
+
+[page-not-found]
+other = "Página no encontrada"
