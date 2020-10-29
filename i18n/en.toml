@@ -120,3 +120,6 @@ other = "Repository"
 
 [page-not-found]
 other = "Page not found"
+
+[no-contents]
+other = "Nothing to Display"
