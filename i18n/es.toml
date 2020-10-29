@@ -1,5 +1,5 @@
 [search-placeholder]
-other = "buscar"
+other = "Buscar"
 
 [summary-dateformat]
 other = "2006-01-02"
@@ -17,7 +17,7 @@ other = "Categorías"
 other = "Serie"
 
 [archive-dateformat]
-other = "2015-01-21"
+other = "02/01"
 
 [talks-dateformat]
 other = "2006-01-02"
@@ -29,7 +29,7 @@ other = "2006-01-02"
 other = "2006-01-02"
 
 [resume-dateformat]
-other = "2006-01-02"
+other = "01/2006"
 
 [single-related]
 other = "Ver también"
@@ -59,10 +59,10 @@ other = "compartir en"
 other = "Nombre"
 
 [contact-email]
-other = "Correo electronico"
+other = "Correo electrónico"
 
 [contact-tel]
-other = "Tel"
+other = "Teléfono"
 
 [contact-file]
 other = "Archivo"
@@ -77,7 +77,7 @@ other = "Enviar"
 other = "Examinar"
 
 [tooltip-home]
-other = "inicio"
+other = "Inicio"
 
 [tooltip-written]
 other = "Escrito en"
@@ -92,13 +92,13 @@ other = "Tiempo de lectura"
 other = "Resumen"
 
 [showcase-pinned]
-other = "Pinned"
+other = "Fijado"
 
 [nojs-message]
-other = "Esta pagina se ve mejor con JavaScript habilitado"
+other = "Esta página se ve mejor con JavaScript habilitado"
 
 [posts-by-order]
-other = "Publicaciones principlaes"
+other = "Publicaciones principales"
 
 [skin-dark]
 other = "oscuro"
