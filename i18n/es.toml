@@ -1,9 +1,6 @@
 [search-placeholder]
 other = "Buscar"
 
-[summary-dateformat]
-other = "2006-01-02"
-
 [reading-time]
 other = "minutos lectura"
 
@@ -20,13 +17,16 @@ other = "Serie"
 other = "02/01"
 
 [talks-dateformat]
-other = "2006-01-02"
+other = "02/01/2006"
 
 [single-dateformat]
-other = "2006-01-02"
+other = "02/01/2006"
+
+[summary-dateformat]
+other = "02/01/2006"
 
 [pub-dateformat]
-other = "2006-01-02"
+other = "02/01/2006"
 
 [resume-dateformat]
 other = "01/2006"
@@ -53,7 +53,7 @@ other = "vistas"
 other = "Apoya al autor con"
 
 [share-message]
-other = "compartir en"
+other = "Compartir en"
 
 [contact-name]
 other = "Nombre"
