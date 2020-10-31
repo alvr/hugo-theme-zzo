@@ -47,10 +47,12 @@
       <article class="resume__section--main">
         {{ range .sections }}
           <div class="resume__section--title">
-            {{ with .title }}
-              {{ . }}
+              {{ if .titleLink }}
+                <a href="{{ .titleLink }}" {{ if eq .linkNewPage true }} target="_blank"{{ end }}>{{ .title }}</a>
+              {{ else }}
+                {{ .title }}
+              {{ end }}
               <div class="grow"></div>
-            {{ end }}
             {{ with .startDate }}
               <span class="resume__section--meta">
                 {{ dateFormat (i18n "resume-dateformat") . }}
