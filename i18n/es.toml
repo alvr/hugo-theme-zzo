@@ -2,7 +2,8 @@
 other = "Buscar"
 
 [reading-time]
-other = "minutos lectura"
+one = "minuto de lectura"
+other = "minutos de lectura"
 
 [tags]
 other = "Etiquetas"

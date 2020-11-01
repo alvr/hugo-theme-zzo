@@ -5,7 +5,8 @@ other = "Search"
 other = "Jan 2, 2006"
 
 [reading-time]
-other = "min read"
+one = "minute read"
+other = "minutes read"
 
 [tags]
 other = "Tags"
