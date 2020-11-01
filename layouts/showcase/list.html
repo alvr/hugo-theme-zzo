@@ -16,7 +16,7 @@
     {{ end }}
     {{ partial "showcase/show-nav" . }}
     {{ if eq .Permalink .FirstSection.Permalink }}
-      {{ partial "showcase/show-pinned" . }}
+      {{ partial "showcase/show-overview" . }}
     {{ else }}
       {{ partial "showcase/show-section" . }}
     {{ end }}
