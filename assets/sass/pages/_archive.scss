@@ -120,8 +120,8 @@
 
   &__meta {
     border-radius: 0.25rem;
-    min-width: 100px;
-    max-width: 100px;    
+    min-width: 150px;
+    max-width: 150px;    
 
     @include flexbox();
     @include align-items(center);
@@ -139,9 +139,10 @@
     width: 50%;
     height: 24px;
     line-height: 24px;
-    text-align: center;
+    text-align: left;
+    padding-left: 0.5rem;
 
-    @include truncate(50px);
+    @include truncate(100px);
     @include themify($themes) {
       color: themed('archive-type-color');
       background-color: themed('archive-type-background-color');
@@ -160,7 +161,8 @@
     width: 50%;
     height: 24px;
     line-height: 24px;
-    text-align: center;        
+    text-align: right;
+    padding-right: 0.5rem;
 
     @include truncate(50px);
     @include themify($themes) {
@@ -175,7 +177,7 @@
 
   &__title {
     margin-right: 0.5rem;    
-    margin-left: 1rem;
+    margin-left: 0.1rem;
     font-family: $title-font;
 
     &[data-title-wrap^="no"] {
